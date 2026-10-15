@@ -33,3 +33,6 @@ Still not built: notifications, disputes/refunds, maps, account deletion, analyt
 ## Added in round 3 (mock)
 Notifications (/notifications, unread count in the nav; triggered by orders, status changes, chat, ads, payouts, disputes), buyer "Report a problem" with admin dispute resolution (/admin/disputes: refund buyer or release to seller; refunds reverse the company order charge in the finance report), and account deletion (/account) that blocks while orders or commissions are unsettled and keeps financial records.
 Not built: email/SMS/push delivery, maps, analytics charts, store-approval notifications, partial refunds.
+
+## Round 4
+Cart link with live item count in the buyer nav, edit/delete for products (name, price, photo) and remove for gallery photos on the seller page, product thumbnails on store pages, category chips on the home and shop pages.
