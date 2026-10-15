@@ -25,3 +25,7 @@ Cart and checkout, orders and status tracking, in-site chat, payments and seller
 - Images: upload to object storage (S3/Cloudinary) and store URLs; the demo uses temporary browser URLs.
 - Payments: use a provider with marketplace/split payments and delayed settlement for hold-until-confirmed.
 - Order charges and commissions must be calculated on the server and audit-logged.
+
+## Added in round 2 (all mock, in `lib/market.js`)
+Cart and checkout (service charge shown per who pays), buyer order tracking with confirm-receipt and rating, seller order management with paid-out vs held totals, buyer/seller chat (store page + inboxes), advertising packages with Sponsored placement in search, agent commission status, admin finance report, ad price editor and agent payout button.
+Still not built: notifications, disputes/refunds, maps, account deletion, analytics charts, real-time chat. State resets on a full page reload.
