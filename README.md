@@ -29,3 +29,7 @@ Cart and checkout, orders and status tracking, in-site chat, payments and seller
 ## Added in round 2 (all mock, in `lib/market.js`)
 Cart and checkout (service charge shown per who pays), buyer order tracking with confirm-receipt and rating, seller order management with paid-out vs held totals, buyer/seller chat (store page + inboxes), advertising packages with Sponsored placement in search, agent commission status, admin finance report, ad price editor and agent payout button.
 Still not built: notifications, disputes/refunds, maps, account deletion, analytics charts, real-time chat. State resets on a full page reload.
+
+## Added in round 3 (mock)
+Notifications (/notifications, unread count in the nav; triggered by orders, status changes, chat, ads, payouts, disputes), buyer "Report a problem" with admin dispute resolution (/admin/disputes: refund buyer or release to seller; refunds reverse the company order charge in the finance report), and account deletion (/account) that blocks while orders or commissions are unsettled and keeps financial records.
+Not built: email/SMS/push delivery, maps, analytics charts, store-approval notifications, partial refunds.
